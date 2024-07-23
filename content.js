@@ -1,4 +1,4 @@
-buttonNav = document.getElementsByClassName("file-navigation mb-3 d-flex flex-items-start");
+buttonNav = document.getElementsByClassName("Box-sc-g0xbh4-0 bWpuBf");
 
 if (buttonNav[0] != null) {
     // Options
@@ -14,7 +14,7 @@ if (buttonNav[0] != null) {
         // Create the Github1s button
         var btn = document.createElement("a");
         btn.innerHTML = buttonTitle;
-        btn.classList = "btn ml-2 d-none d-md-block";
+        btn.classList = "btn ml-1 d-none d-md-block";
         btn.href = window.location.href.replace("https://github.com/", "https://github1s.com/");
 
         if (openInNewPage) btn.target = "_blank";
